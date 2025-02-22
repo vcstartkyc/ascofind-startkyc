@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StartKYC Form</title>
+    <style>
+        /* Ensure the iframe takes full screen width on mobile */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        iframe {
+            width: 100%;
+            max-width: 900px; /* Increase max width */
+            height: 90vh; /* Make it take most of the screen height */
+            border: none;
+        }
+    </style>
 </head>
-<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+<body>
     <iframe
         src="https://startkyc.wispform.com/1237b557"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        style="height:840px; width:640px;">
-        Caricamento...
+        allowfullscreen>
+        Loading...
     </iframe>
 </body>
 </html>
